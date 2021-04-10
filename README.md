@@ -3,9 +3,9 @@ This repository contains a school project for a data compression course. The rep
 
 Author: Georgia
 
-+----------------------------+
- #Basic Run Through Per Block:
-+----------------------------+
+
+ # Basic Run Through Per Block:
+
     OverHead: A map -> RLEed 
     Main Data: Move-to-Front Transform (up to 6 bits/31 unique symbols) -> Delta Compression (Variance/bit amount to be determined) -> (Not implemented) RLE the data
 
@@ -35,9 +35,9 @@ Move-to-Front Transform: The initial move to front vector is in ascending ascii 
    "reading mode". 
 
 
-+-------------------------------------------+
- #In-depth Implementation and Decision making:
-+-------------------------------------------+
+
+ # In-depth Implementation and Decision making:
+
    ___________
     OverHead:
    -----------
@@ -119,9 +119,9 @@ Delta Compression:
 
 
 
-+----------+
- #Citations: 
-+----------+
+
+ # Citations: 
+
 
 output_stream.hpp, written by Bill Bird
 RLE method from DEFLATE's Block 2 type (Used in overhead)
